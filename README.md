@@ -1,4 +1,3 @@
-# vaarthagini.github.io
 # Vartha Genie: Building a Telugu News Article Summarizer
 
 ## Team Members
