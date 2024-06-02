@@ -1,5 +1,5 @@
 # Vartha Genie: Building a Telugu News Article Summarizer
-
+theme: jekyll-theme-Cayman
 ## Team Members
 - Raghu Prashanka
 - Charan Sai
