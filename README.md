@@ -3,7 +3,7 @@
 ## Authors
 Raghu Prashanka, Charan Sai, Badreesh, Dhanush Reddy, Sai Varun
 
-![ ](VarthaGenie.github.io/image1)
+![ ](/image1)
 
 ## Problem Statement
 This project aims to develop a Natural Language Processing model capable of summarizing Telugu news articles. The model will take a Telugu news article URL as input and output a concise and informative summary of the article content.
