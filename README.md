@@ -3,7 +3,7 @@
 ## Authors
 Raghu Prashanka, Charan Sai, Badreesh, Dhanush Reddy, Sai Varun
 
-![ ](image1)
+![ ](VarthaGenie.github.io/image1)
 
 ## Problem Statement
 This project aims to develop a Natural Language Processing model capable of summarizing Telugu news articles. The model will take a Telugu news article URL as input and output a concise and informative summary of the article content.
@@ -26,7 +26,7 @@ To build a robust Telugu news article summarizer, we took a large corpus of Telu
   - Improved Training Efficiency: Labeled data provides clear examples of article-summary pairs, allowing the model to learn the relationship between the full article and its concise summary.
   - Enhanced Summary Quality: By training on human-written summaries, the model can learn to generate summaries that are not only factually accurate but also grammatically correct and stylistically similar to human-written summaries.
 
-![ ]([VarthaGenie.github.io/image2)
+![ ](VarthaGenie.github.io/image2)
 
 ### Data Preprocessing and Working
 For our project, the data pre-processing stage is crucial in transforming raw text into a format suitable for analysis and summarization. Let's delve into the detailed preprocessing steps involved in our code:
@@ -49,12 +49,12 @@ For our project, the data pre-processing stage is crucial in transforming raw te
 6. **Vectorizing Sentences:**
    - The next step involves converting sentences into numerical representations using the Bag-of-Words model (CountVectorizer). We then transform this count matrix into a Term Frequency-Inverse Document Frequency (TF-IDF) representation using the TfidfTransformer. The TF-IDF matrix highlights the importance of words relative to the document.
 
-![ ]([VarthaGenie.github.io/image3)
+![ ](VarthaGenie.github.io/image3)
 
 7. **Building a Graph and Calculating PageRank Scores:**
    - We construct a graph where each sentence is a node, and edges between nodes are weighted by the similarity (TF-IDF scores). Using the PageRank algorithm, we calculate the importance of each sentence within the graph. Sentences with higher scores are deemed more significant for the summary.
 
-![ ]([VarthaGenie.github.io/image4)
+![ ](VarthaGenie.github.io/image4)
 
 8. **Generating the Summary:**
    - Finally, we select the top-ranked sentences to form the summary. The number of sentences included in the summary is determined based on the length of the original content, ensuring a concise and relevant summary.
@@ -68,7 +68,7 @@ Before diving into the model training, let's briefly touch on the data preparati
 #### Model and Tokenizer Initialization
 We use the `facebook/mbart-large-cc25` model, which is well-suited for multilingual tasks, including text summarization. The model is loaded alongside its corresponding tokenizer, which handles text preprocessing.
 
-![ ]([VarthaGenie.github.io/image5)
+![ ](VarthaGenie.github.io/image5)
 
 #### Tokenizing the Dataset
 Tokenization is a critical preprocessing step where raw text is converted into a format suitable for the model. We define a preprocessing function to tokenize the text and summary pairs. Each text and summary is truncated to a maximum length, and padding ensures consistent input sizes.
@@ -85,7 +85,7 @@ With everything set up, we start the training process by calling the `train` met
 #### Saving the Model
 After training, it's crucial to save the model and tokenizer for future use. We save the trained model and tokenizer to a specified directory, ensuring that they can be loaded and used for generating summaries on new data.
 
-![ ]([VarthaGenie.github.io/image6)
+![ ](VarthaGenie.github.io/image6)
 
 ### The Journey
 Initially, before the development of previously discussed algorithm, we considered translating the Telugu text to English, performing the summarization, and then translating the summary back to Telugu. This approach was tempting due to the extensive availability of NLP tools and resources in English, which are often more advanced and well-supported compared to those for Telugu. 
@@ -104,9 +104,9 @@ After implementing and testing our Telugu text summarization model within the St
 - We assessed how well the summaries encapsulate the key information present in the original content. Higher coverage indicates better summarization quality.
 - We have also analyzed whether the generated summaries accurately capture the main ideas and crucial details from the original text.
 
-![ ]([VarthaGenie.github.io/image7)
-![ ]([VarthaGenie.github.io/image8)
-![ ]([VarthaGenie.github.io/image9)
+![ ](VarthaGenie.github.io/image7)
+![ ](VarthaGenie.github.io/image8)
+![ ](VarthaGenie.github.io/image9)
 
 ### Findings
 Our Telugu News Article Summarizer project findings include:
