@@ -128,4 +128,4 @@ In conclusion, the results from our Telugu Text Summarizer are encouraging, refl
 
 <img src="images/image10.png" alt="Image 10" width="75%">
 
-Find our Github repository link: [Github Repository](https://github.com/raghu-prashanka/VarthaGenie_Team_22)
+Find our Github repository link: [VarthaGenie_Team_22](https://github.com/raghu-prashanka/VarthaGenie_Team_22)
