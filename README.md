@@ -126,6 +126,6 @@ Upon analyzing the results, we observed the following:
 ## Conclusion
 In conclusion, the results from our Telugu Text Summarizer are encouraging, reflecting its potential utility in various applications, including content curation, information retrieval, and document summarization. By leveraging NLP techniques and continuously refining the model, we aim to further enhance the summarization quality and broaden its applicability across diverse domains.
 
-<img src="images/image10.png" alt="Image 10" width="90%">
+<img src="images/image10.png" alt="Image 10" width="75%">
 
 Find our Github repository link: [Github Repository](https://github.com/raghu-prashanka/VarthaGenie_Team_22)
