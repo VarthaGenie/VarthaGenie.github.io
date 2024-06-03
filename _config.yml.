@@ -1,1 +1,3 @@
-theme: jekyll-theme-cayman
+title: Vartha Genie: Building a Telugu News Article Summarizer
+description: A project to develop a Natural Language Processing model for summarizing Telugu news articles.
+theme: jekyll-theme-modernist
