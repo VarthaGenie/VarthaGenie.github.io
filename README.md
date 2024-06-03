@@ -3,7 +3,7 @@
 ## Authors
 Raghu Prashanka, Charan Sai, Badreesh, Dhanush Reddy, Sai Varun
 
-<img src="images/image1.png" alt="Image 1" width="50%">
+<img src="images/image1.png" alt="Image 1" width="55%">
 
 ## Problem Statement
 This project aims to develop a Natural Language Processing model capable of summarizing Telugu news articles. The model will take a Telugu news article URL as input and output a concise and informative summary of the article content.
@@ -26,7 +26,7 @@ To build a robust Telugu news article summarizer, we took a large corpus of Telu
   - Improved Training Efficiency: Labeled data provides clear examples of article-summary pairs, allowing the model to learn the relationship between the full article and its concise summary.
   - Enhanced Summary Quality: By training on human-written summaries, the model can learn to generate summaries that are not only factually accurate but also grammatically correct and stylistically similar to human-written summaries.
 
-<img src="images/image2.png" alt="Image 2" width="50%">
+<img src="images/image2.png" alt="Image 2" width="80%">
 
 ### Data Preprocessing and Working
 For our project, the data pre-processing stage is crucial in transforming raw text into a format suitable for analysis and summarization. Let's delve into the detailed preprocessing steps involved in our code:
@@ -85,7 +85,7 @@ With everything set up, we start the training process by calling the `train` met
 #### Saving the Model
 After training, it's crucial to save the model and tokenizer for future use. We save the trained model and tokenizer to a specified directory, ensuring that they can be loaded and used for generating summaries on new data.
 
-<img src="images/image6.png" alt="Image 6" width="50%">
+<img src="images/image6.png" alt="Image 6" width="100%">
 
 ### The Journey
 Initially, before the development of previously discussed algorithm, we considered translating the Telugu text to English, performing the summarization, and then translating the summary back to Telugu. This approach was tempting due to the extensive availability of NLP tools and resources in English, which are often more advanced and well-supported compared to those for Telugu. 
@@ -104,9 +104,9 @@ After implementing and testing our Telugu text summarization model within the St
 - We assessed how well the summaries encapsulate the key information present in the original content. Higher coverage indicates better summarization quality.
 - We have also analyzed whether the generated summaries accurately capture the main ideas and crucial details from the original text.
 
-<img src="images/image7.png" alt="Image 7" width="50%">
-<img src="images/image8.png" alt="Image 8" width="50%">
-<img src="images/image9.png" alt="Image 9" width="50%">
+<img src="images/image7.png" alt="Image 7" width="75%">
+<img src="images/image8.png" alt="Image 8" width="75%">
+<img src="images/image9.png" alt="Image 9" width="75%">
 
 ### Findings
 Our Telugu News Article Summarizer project findings include:
@@ -126,6 +126,6 @@ Upon analyzing the results, we observed the following:
 ## Conclusion
 In conclusion, the results from our Telugu Text Summarizer are encouraging, reflecting its potential utility in various applications, including content curation, information retrieval, and document summarization. By leveraging NLP techniques and continuously refining the model, we aim to further enhance the summarization quality and broaden its applicability across diverse domains.
 
-<img src="images/image10.png" alt="Image 10" width="50%">
+<img src="images/image10.png" alt="Image 10" width="90%">
 
 Find our Github repository link: [Github Repository](https://github.com/raghu-prashanka/VarthaGenie_Team_22)
