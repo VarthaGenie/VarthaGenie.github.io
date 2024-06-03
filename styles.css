@@ -1,35 +1,35 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
-    color: #333;
+    background-color: #141414;
+    color: #e5e5e5;
 }
 
 .container {
-    width: 80%;
+    width: 85%;
     max-width: 900px;
     margin: 20px auto;
     padding: 20px;
-    background: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #181818;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
 
 header {
     text-align: center;
     padding-bottom: 20px;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid #333;
     margin-bottom: 20px;
 }
 
 h1, h2, h3 {
-    color: #333;
+    color: #fff;
 }
 
 hr {
-    border: 1px solid #ddd;
+    border: 1px solid #333;
     margin: 20px 0;
 }
 
@@ -38,8 +38,8 @@ section {
 }
 
 section h2 {
-    color: #5a5a5a;
-    border-bottom: 2px solid #ddd;
+    color: #f8f8f8;
+    border-bottom: 2px solid #333;
     padding-bottom: 10px;
 }
 
@@ -47,13 +47,14 @@ ul {
     list-style-type: disc;
     margin-left: 20px;
     padding-left: 10px;
+    color: #ddd;
 }
 
 footer {
     text-align: center;
     margin-top: 20px;
     padding-top: 20px;
-    border-top: 2px solid #ddd;
+    border-top: 2px solid #333;
 }
 
 footer p {
@@ -61,7 +62,7 @@ footer p {
 }
 
 a {
-    color: #007BFF;
+    color: #e50914;
     text-decoration: none;
 }
 
@@ -70,11 +71,11 @@ a:hover {
 }
 
 header p, section p {
-    color: #555;
+    color: #ccc;
 }
 
 h2, h3 {
-    color: #2c3e50;
+    color: #e5e5e5;
 }
 
 h3 {
@@ -88,4 +89,10 @@ ul {
 
 ul li {
     margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
